@@ -1,0 +1,87 @@
+    body {
+        font-family: "Poppins", sans-serif;
+        margin: 50px 50px 0 50px;
+        background-color: #EFBC9B;
+        display: flex;
+        flex-direction: column;
+        min-height: 95vh; 
+    }
+
+    .home {
+        display: flex;
+        height: 7vh;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .top {
+        font-weight: bold;
+        background-color: #FBF3D5;
+        height: 50px;
+        padding: 1%;
+        width: 150px;
+        border-radius: 10px;
+        
+    }
+
+    .content {
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 300px 300px;
+        gap: 50px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .me {
+        grid-row: auto / span 2;
+        grid-row-start: 1;
+    }
+
+    .dust {
+        grid-column: 4;
+    }
+
+    .dota {
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+    .text3 {
+        grid-column: 3;
+    }
+
+    .idk {
+        display: grid;
+        justify-content: center;
+    }
+
+    .present {
+        display: grid;
+        grid-template-columns: 1320px ;
+        grid-template-rows: 800px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        font-weight: bold;
+        background-color: #FBF3D5;
+        border-radius: 50px;
+        font-size: 50px;
+        padding: 0%;
+        top: 50%;
+    }
+
+    .me2 {
+        grid-column: auto / span 4;
+        grid-row: auto / span 2;
+    }
+
+
+    
+
+
